@@ -17,7 +17,7 @@ You can use our prepared [Codeception/symfony-module-test](https://github.com/Co
   git checkout -b new_feature
   ```
 
-2. Edit the module's source code in `vendor/codeception/module-symfony/src/Codeception/Module/Symfony.php` of this project. If you want, you can already write the tests (see step 7).
+2. Edit the module's source code in `vendor/codeception/module-symfony/src/Codeception/Module/Symfony.php` of this project. If you want, you can already write the test (see step 7).
 
 3. On https://github.com/Codeception/module-symfony, click on the "Fork" button. Then, in your terminal, go to another directory, then:
    ```bash
@@ -29,11 +29,11 @@ You can use our prepared [Codeception/symfony-module-test](https://github.com/Co
 4. Copy your changed code parts from the test project's `Symfony.php` to this fork's `src/Codeception/Module/Symfony.php`
 
 5. Commit:
-  ```bash
-  git add --all
-  git commit --message="Briefly explain what your change is about"
-  git push --set-upstream origin new_feature
-  ```
+   ```bash
+   git add --all
+   git commit --message="Briefly explain what your change is about"
+   git push --set-upstream origin new_feature
+   ```
 
 6. In the CLI output, click on the link to https://github.com/YourUserName/module-symfony/pull/new/new_feature to create a Pull Request through GitHub.com.
 
